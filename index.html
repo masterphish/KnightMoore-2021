@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Knight-Moore Digital - Front-end Web and UI Design</title>
+<link rel="icon" type="image/png" href="img/km-favicon.png">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<!--<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>-->
+<!--<script src="fontawesome-free-5.0.4.zip/fontawesome-free-5.0.4/svg-with-js/js/fontawesome-all.min"></script>-->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="css/block-grid/dist/bootstrap4-block-grid.min.css">
+<!--<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">-->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<!--<link href="https://fonts.googleapis.com/css?family=Montserrat:300,600|Teko:400,600" rel="stylesheet">-->
+<!--<link href="https://fonts.googleapis.com/css?family=Cormorant+SC:400,600,700|Ubuntu:300,400,400i,700" rel="stylesheet">-->
+<link href="https://fonts.googleapis.com/css?family=Cardo|Ubuntu:400,400i,700" rel="stylesheet"> 
+
+<link href="css/main.css" rel="stylesheet">
+</head>
+
+<body class="Home">
+	<header class="pcHeader navbar navbar-expand-lg fixed-top" role="navigation">
+		<section class="container-fluid">
+			<nav class="navbar-header col-sm-3 col-3">
+				<a href="index.html" id="pcHome" class="navbar-brand col-sm-12 col-3">
+				<h1 id="pcLogo"><img src="img/knight-moore-logo-versions-burgundy.png" alt="Knight-Moore Digital"><!--<span id="pcLogoTitle"></span>--></h1>
+				<!--<h6 id="pcSlogan" >Let's Craft Amazing Things Together!</h6>--><!--class="text-muted"-->
+				</a>
+				<a href="index.html" id="pcAltHome" class="navbar-brand col-xs-3"><img src="img/knight-moore-logo-versions-head-burgundy.png" alt="Knight-Moore Digital Logo"></a>
+			</nav>
+			
+			<!--<div id="navMenuBlock" class="col-sm-9 col-xs-12">-->
+			<button id="burgerMenuBtn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#burgerMenu"><i id="openIcn" class="fas fa-bars fa-lg"></i><i id="closeIcn" class="far fa-window-close fa-lg hidden"></i><br/>menu</button>
+			<nav id="burgerMenu" class="navbar-collapse collapse navbar-right justify-content-end">
+				<ul class="nav">					
+					<li class="nav-item"><a href="#projectsBlock" class="nav-link"><i class="fas fa-briefcase"></i> <span>Projects</span></a></li>
+					<li class="nav-item"><a href="#infoBlock" class="nav-link"><i class="fas fa-info-circle"></i> <span>Info</span></a></li>
+                    <li class="nav-item"><a href="./pdf/JeffreyMooreResume2021.pdf" class="nav-link" target="_blank"><i class="fas fa-download"></i> <span>Resume</span></a></li>
+                    <li class="nav-item"><a href="https://www.linkedin.com/in/jeffrey-knightmoore" class="nav-link" target="_blank"><i class="fab fa-linkedin" target="_blank"></i> <span>LinkedIn</span></a></li>
+                    <!--<li class="nav-item"><a href="https://www.linkedin.com/in/jeffrey-moore-46358b38/" class="nav-link" target="_blank"><i class="fab fa-linkedin" target="_blank"></i><span>LinkedIn</span></a></li>-->
+				</ul>
+			</nav>
+			<!--</div>-->
+		</section>
+	</header>
+	<div class="pcPage jumbotron-fluid">
+		<section class="container-fluid">
+			<div id="pcWelcomeContent">
+				<h1 class="display-1">I’m Jeffrey Knight-Moore</h1>
+				<p class="lead container">Testing a Change. A Full-Stack Product Designer, Design Technologist and Digital Illustrator based in Chaplin Connecticut. <strong>Currently seeking my next adventure.</strong></p>
+                <!--<p class="lead">A Product Designer and Digital Illustrator based in Chaplin Connecticut. Actively looking for new opportunities.</p>-->
+				<!--<a href="#projectsBlock" role="button" class="btn"><i class="fas fa-angle-down fa-3x"></i></a>-->
+			</div>
+		</section>
+	</div>	
+	<div id="projectsBlock" class="pcPage centerContent">
+		<section class="container">
+			<h2 class="display-3">A Few Projects</h2>
+
+			<p class="lead"> I have had the pleasure of working with some really great folks over the years. <br/>Here are a few of my favorite projects.</p>
+
+			<ul class="row projectList">
+                <li class="col-lg-4 col-md-6"><a href="projects/purple.html"><h4>Purple. Design System</h4></a></li>
+                <li class="col-lg-4 col-md-6"><a href="projects/oneway-rentals.html"><h4>Upside - One-Way Rental Cars</h4></a></li>
+				<li class="col-lg-4 col-md-6"><a href="projects/trial-style.html"><h4>TrailStyle Site Activation Concept</h4></a></li>
+				<li class="col-lg-4 col-md-6"><a href="projects/n-vision.html"><h4>N-Vision Intranet Concept</h4></a></li>
+				<li class="col-lg-4 col-md-6"><a href="projects/ahc-corporate.html"><h4>AmeriHealth Caritas</h4></a></li>				
+				<li class="col-lg-4 col-md-6"><a href="projects/lauths.html"><h4>Lauths.com</h4></a></li>
+				<!--<li class="col-lg-4 col-md-6"><a href="projects/magnatrol.html"><h4>Magnatrol Valve Corp.</h4></a></li>-->				
+			</ul><!--<img src="img/n-vision-logo-01-orange.png" alt="N-Vision Logo">--><!--<img src="img/ahc-logo-white.png" alt="AmeriHealth Caritas Logo"--><!--<img src="img/lauths-logo.png" alt="Lauths.com Logo">--><!--<img src="img/magnatrol-logo-black.png" alt="Magnatrol Valve Corp. Logo">-->
+		</section>
+	</div>
+	<div id="infoBlock" class="pcPage centerContent">
+		<section class="container-fluid">
+			<h2 class="display-3">Info</h2>
+
+			<div class="infoText text-left">
+				<p class="lead">I’m a Product Designer, Design Technologist and Digital Illustrator with 11+ years of experience in a variety of agency and enterprise industries including, e-learning, small business, health insurance, pharmaceutical and travel. In 2019 I relocated to Chaplin Connecticut and I'm living my best life, working 100% remotely and enjoying the peace and serenity of rural New England.</p>
+
+				<p class="lead">I consider myself passionate, creative, collaborative and strategic. I have strong ideas about good design and creating meaningful user experiences and I emjoy working with teams that values thoughtful and informed design methods. I get the most joy out of crafting and strategizing products that help make peoples lives better and easier. I'm a hands on kind of guy and like to be involved with everything from research, to design to front-end coding. Figma is my best friend and I'm getting knee deep in Vue.JS.</p>
+
+				<p class="lead">I have a variety of hobbies and interests outside of design ranging from video games and table top RPG's, to foreign language studies, to history, and most recently, herbalisim and homesteading. I believe strongly that having a wide breadth of interests informs my design and helps to provide fresh prospectives.</p>
+
+				<p class="lead">Thanks for visiting my site and I look forward to working with you.</p>
+			</div>
+			
+			<div class="resumeContact"><p class="lead" style="font-weight: bold; font-size:1.4rem;">You can reach me by email at:</p><br/><a class="btn btn-primary btn-lg" href="mailto:jeffrey@knightmoore.com">jeffrey@knightmoore.com</a></div>
+		</section>
+	</div>
+	<footer class="pcFooter">
+		<section class="container-fluid">
+			<div id="leftBlock" class="col-md-9 col-sm-12">
+				<div class="left">
+					<p><i class="far fa-copyright fa-lg"></i><span>Copyright Jeffrey S. Moore and Knight-Moore Digital. All rights reserved.</span></p>
+				</div>
+			</div>
+			<!--<div id="rightBlock" class="col-md-3 col-sm-12">
+				<div class="right">
+					<a href="https://www.facebook.com/KnightMooreDigital/" target="_blank"><i class="fab fa-facebook fa-sm"></i></a>
+					<a href="https://twitter.com/PhishCraft" target="_blank"><i class="fab fa-twitter-square fa-sm"></i></a>
+					<a href="https://www.linkedin.com/in/jeffrey-moore-46358b38/" target="_blank"><i class="fab fa-linkedin fa-sm" target="_blank"></i></a>
+                    <a href="https://www.linkedin.com/in/jeffrey-moore-46358b38/" target="_blank"><i class="fab fa-linkedin fa-sm" target="_blank"></i></a>
+				</div>
+			</div>-->
+		</section>
+	</footer>
+	
+	<div id="smallScreenDefault">
+		<section class="container-fluid">
+			<h2 class="display-3">Thanks for visiting</h2>
+			
+			<p>For the best viewing experience, please use a screen that is 320px wide or greater. I hope to see you soon!</p>
+			
+			<h4 class="display-4">In the meantime...</h4>
+
+			<div class="emailContact"><p class="lead">You can reach me by email at:</p> <strong class="display-4"><a href="mailto:jeffrey@knightmoore.com">jeffrey@knightmoore.com</a></strong></div>
+			<div class="socialContact"><p class="lead">or via</p>
+				<!--<a href="https://www.facebook.com/KnightMooreDigital/" target="_blank"><i class="fab fa-facebook fa-3x"></i></a> 
+				<a href="https://twitter.com/PhishCraft" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a> -->
+				<a href="www.linkedin.com/in/jeffrey-knightmoore" target="_blank"><i class="fab fa-linkedin fa-3x"></i>LinkedIn</a>
+			</div>
+			<div class="resumeContact"><p class="lead">Feel free to download</p><br/><a class="btn btn-primary btn-lg" href="../pdf/Jeffrey Moore Resume-2020.pdf" target="_blank">My Resume</a></div>
+		</section>
+	</div>
+</body>
+</html>
